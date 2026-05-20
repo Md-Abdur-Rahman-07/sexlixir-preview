@@ -462,7 +462,8 @@ a {
 .site-footer__bar hr {
   margin: 0;
   width: 0;
-  border-right: 2px solid #D7986A;
+  border: none;
+  border-right: 3px solid #D7986A;
   background: #D7986A;
 }
 
@@ -560,6 +561,7 @@ a {
 @media (max-width: 900px) {
   .hero__inner {
     flex-direction: column;
+    padding: 10px;
   }
 
   .hero__left {
@@ -672,7 +674,7 @@ a {
 
 }
 .hero__tagline--pink {
-    font-size: 32px;
+    font-size: 30px;
     color: var(--pink);
 }
 }
