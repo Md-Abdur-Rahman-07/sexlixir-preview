@@ -62,7 +62,7 @@ a {
 .hero {
   position: relative;
   min-height: 100vh;
-  background: var(--black) url("img/hero.png") top center / cover no-repeat;
+  background: var(--black) url("../img/hero.png") top center / cover no-repeat;
 }
 
 .hero::before {
